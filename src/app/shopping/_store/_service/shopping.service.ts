@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { delay } from 'rxjs/operators';
-import { ShoppingItem } from '../_store/_models/shopping-item.model';
+import { ShoppingItem } from '../_models/shopping-item.model';
 
 @Injectable({
   providedIn: 'root',
